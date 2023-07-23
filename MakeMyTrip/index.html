@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MakeMyTrip</title>
+    <link rel="shortcut icon" href="img/title-logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/index-style.css" />
+  </head>
+  <body>
+    <!-- clone MakeMyTrip app using html css bootstrap js  -->
+
+    <!-- container-1 -->
+
+    <div class="container-fluid">
+      <div class="row d-flex container-1" style="height: 200px">
+        <div class="col-4 header-logo">
+          <div class="row d-flex">
+            <div class="col-4">
+              <img src="img/full-text-logo.webp" alt="full-text-logo" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 d-flex">
+          <div class="col d-flex" id="banner1" style="height: 100px">
+            <div class="col-4">
+              <div id="img-sm">Img</div>
+            </div>
+
+            <div class="col-8">
+              <div id="banner-Text-heading">Super Offer</div>
+              <div id="banner-Text-body">Explore great deals & offers</div>
+            </div>
+          </div>
+
+          <div class="col d-flex" id="banner2" style="height: 100px">
+            <div class="col-4">
+              <div id="img-sm">Img</div>
+            </div>
+
+            <div class="col-8">
+              <div id="banner-Text-heading">Introducing myBiz</div>
+              <div id="banner-Text-body">Business Travel Solution</div>
+            </div>
+          </div>
+
+          <div class="col d-flex" id="banner3" style="height: 100px">
+            <div class="col-4">
+              <div id="img-sm">Img</div>
+            </div>
+
+            <div class="col-8">
+              <div id="banner-Text-heading">My Trips</div>
+
+              <div id="banner-Text-body">Manage your bookings</div>
+            </div>
+          </div>
+
+          <div class="col d-flex" id="banner4" style="height: 100px">
+            <div class="col-4">
+              <div id="img-sm">
+                <!-- <img src="img/title-logo.png" alt="title-logo" width="50px"> -->
+              </div>
+            </div>
+            <div class="col-8 login-design" id="banner-Text-body">
+              Login or CreateAccount
+              <!-- <div id="banner-Text-body">Login or CreateAccount</div> -->
+            </div>
+          </div>
+
+          <div class="col" id="banner5" style="height: 100px">
+            <div id="country-design">IN | ENG | INR</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- container2-->
+
+    <div class="container">
+            <div class="row d-flex  container-2 shadow bg-white rounded">
+                <ul class="d-flex mb-0 p-0 " style="list-style-type:none">
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center flex-column">
+                            <a  class="col"><i class="fa fa-plane fa-5x text-secondary" aria-hidden="true"></i>
+                            </i></a>
+                            <h3 class="col" id="icon-text">Flights</h3>
+                        </div>
+                    </li>
+
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center flex-column">
+                            <a  class="col"><i class="fa fa-bed fa-5x text-secondary" aria-hidden="true"></i>
+                            </a>
+                            <h5 class="col" id="icon-text">Hotels</h5>
+                        </div>
+                    </li>
+
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center flex-column">
+                            <a  class="col"><i class="fa fa-home fa-5x text-secondary" aria-hidden="true"></i>
+                            </a>
+                            <h5 class="col" id="icon-text">Homestays</h5>
+                        </div>
+                    </li>
+
+                   
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center  flex-column">
+                            <a  class="col"><i class="fa fa-grav fa-5x text-secondary" aria-hidden="true"></i>
+                            </a>
+                            <h5 class="col" id="icon-text">HolidayPackages</h5>
+                        </div>
+                    </li>
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center flex-column">
+                            <a  class="col"><i class="fa fa-train fa-5x text-secondary" aria-hidden="true"></i>
+                            </a>
+                            <h5 class="col" id="icon-text">Trains</h5>
+                        </div>
+                    </li>
+
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center flex-column">
+                            <a  class="col"><i class="fa fa-bus fa-5x text-secondary" aria-hidden="true"></i>
+                            </a>
+                            <h5 class="col" id="icon-text">Buses</h5>
+                        </div>
+                    </li>
+
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center flex-column">
+                            <a  class="col"><i class="fa fa-taxi fa-5x text-secondary" aria-hidden="true"></i>
+                            </a>
+                            <h5 class="col" id="icon-text">Cabs</h5>
+                        </div>
+                    </li>
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center flex-column">
+                            <a  class="col"><i class="fa fa-money fa-5x text-secondary"  aria-hidden="true"></i>
+                            </a>
+                            <h5 class="col" id="icon-text">Forex</h5>
+                        </div>
+                    </li>
+
+                    <li class="col p-2 m-3">
+                        <div class="d-flex text-center flex-column">
+                            <a  class="col"><i class="fa fa-fighter-jet fa-5x text-secondary" aria-hidden="true"></i>
+                            </a>
+                            <h5 class="col" id="icon-text">CharterFlights</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    <!-- container3 -->
+
+    
+    <div class="container-fluid" style="margin-top: 200px; border-radius: 10px;" >
+          
+          <div class="row d-flex">
+                <div class="col d-flex    section1" >
+                    <input style="width: 20px;"  type="radio" name="data" id="val1" value="oneway">
+                    <label  id="text-common" class="col-2" for="val1"> One way</label><br>
+                    <input style="width: 20px;" type="radio" name="data" id="val2" value="roundtrip">
+                    <label id="text-common" class="col-2" for="val2"> RoundTrip</label><br>
+                    <input style="width: 20px;" type="radio" name="data" id="val3" value="MultiCity">
+                    <label id="text-common" class="col-2" for="val3"> MultiCity</label><br>
+                </div>
+                <div class="col d-flex  justify-content-end section2" id="text-common">
+                    <span>Book International and Domestic Flights</span>
+                </div>
+          </div>
+
+        <div class="row d-flex container-3" style="border: 1px solid #e7e7e7;">
+            
+            <div class="col-3" style="border: 1px solid #e7e7e7;">
+               <div id="from">From</div>
+               <div id="start-place">Delhi</div>
+               <div id="start-place-location">DEL,Delhi Airport India </div>
+            </div>
+
+            <div class="col-3" style="border: 1px solid #e7e7e7;">
+               <div id="to">To</div>
+               <div id="end-place">Bengaluru</div>
+               <div id="end-place-location">BLR,Bengaluru International Airport</div>
+            </div>
+
+            <div class="col-2" style="border: 1px solid #e7e7e7;">
+              <div class="departure"> Departure</div>
+              <div id="end-date">
+                <label for="end-date"></label>
+                <input type="date" id="end-date" name="end-date">
+              </div>
+              <div id="end-day">Sunday</div>
+            </div>
+
+            
+            <div class="col-2" style="border: 1px solid #e7e7e7;">
+                 <div id="return">
+                  Return
+                 </div>
+                 <div id="end-date">
+                  <label for="end-date"></label>
+                  <input type="date" id="end-date" name="end-date">
+                 </div>
+                 <div id="end-day">Wednesday</div>     
+            </div>
+
+            <div class="col-2" style="border: 1px solid #e7e7e7;">
+               <div id="Travellers-class">
+                Travellers & class
+               </div>
+               <div id="Travellers-data">
+                <span id="Travellers-count">1</span>
+                <span id="Traveller">Traveller</span>
+              </div>
+              <div id="Travelling-type">
+                <span>Economy</span><span>/</span><span>PremiumEconomy</span>
+              </div>
+
+            </div>
+        </div>
+
+
+        <div class="row d-flex p-0 mt-5" style="border-radius: 20px;">
+
+
+               <div class="col-8 d-flex fare">
+
+                <div class="row d-flex">
+
+                   <div class="col-1 fare text-center pt-3">
+                          <span id="fare-text">Select A Fare Type:</span>
+                   </div>
+
+                    <div class="col-11 d-flex fare-item" style="border-radius: 20px;" >
+
+                      <input  style="width:30px;"  type="radio" name="data" id="rv" value="regularvalue">
+                      <label  id="text-small" class="col text-center pt-4" for="rv">Regular Fare</label>
+
+                      <input style="width: 30px;" type="radio" name="data" id="aff" value="ArmedForcesFares">
+                      <label id="text-small" class="col text-center pt-4" for="aff">ArmedForces Fares</label>
+
+                      <input style="width: 30px;" type="radio" name="data" id="sf" value="StudentFares">
+                      <label id="text-small" class="col text-center pt-4" for="sf">Student Fares</label>
+
+                      <input style="width: 30px;" type="radio" name="data" id="scf" value="SeniorCitizenFares">
+                      <label id="text-small" class="col text-center pt-4" for="scf">SeniorCitizen Fares</label>
+
+                      <input style="width: 30px;" type="radio" name="data" id="dnf" value="DoctorsNurses Fares">
+                      <label id="text-small" class="col text-center pt-4" for="dnf">Doctors&Nurses Fares</label>
+                      
+                      <input style="width: 30px;" type="radio" name="data" id="dsf" value="DoubleSeatFares">
+                      <label id="text-small" class="col text-center pt-4" for="dsf">Double Seat Fares</label>
+
+                    </div>
+  
+                </div>
+              </div>
+ 
+              <div class="col-4 d-flex treanding-searches p-0">
+                    
+                  <div class="d-flex col-12 text-center pt-5">
+
+                         <div class="col-4" >
+                               <span id="fare-text">TrendingSearches:</span>
+                         </div>
+
+                         <div class="col-4" >
+                                <div id="section" >
+                                  <span>Dubai</span><span>-></span><span>Delhi</span>
+                                </div>
+                         </div>
+
+                         <div class="col-4">
+                            <div id="section">
+                            <span>Bengaluru</span><span>-></span><span>London</span>
+                            </div>
+                         </div>
+
+                  </div>
+
+               </div>
+        </div>
+      </div>
+
+    <!-- container-4 -->
+          
+    <div class="container search-container">
+       <div class="d-flex justify-content-center  text-center search-row">
+         <div class="search-col"><span style="color: white;">SEARCH</span></div>
+       </div>
+    </div>
+
+
+    <!-- container-5 -->
+    
+    <div class="container-fluid  mt-5">
+      <div class="row text-center align-items-center" style="height: 200px; background-color: rgb(12, 12, 156); border-radius: 20px;">
+              <div class="col">
+                <span id="explore-text" >Explore More</span>
+              </div>
+      </div>
+                  
+    </div>
+
+
+     <!-- container-6 -->
+
+            <div class="container-fluid c-6">
+              <div class="row text-center d-flex c-6-r">
+
+                <div class="col d-flex">
+
+                     <div class="col">
+                       <img src="" alt="">Img
+                     </div>
+                     <div class="col-10 ">
+                      
+                      <span id="c6-h">Where2Go</span>
+
+                     </div>
+                </div>
+
+                <div class="col d-flex">
+                         <div class="col-2">
+                          <img src="" alt="">Img
+                         </div>
+                         <div class="col-10">
+                             <div class="col" id="c6-h">
+                                  Insurance
+                             </div>
+                             <div class="col" id="c6-b">
+                                  For International Trips
+                             </div>
+                         </div>
+                </div>
+
+                <div class="col d-flex">
+                  <div class="col-2">
+                    <img src="" alt="">Img
+                   </div>
+                   <div class="col-10">
+                       <div class="col" id="c6-h">
+                            Explore International Flights
+                       </div>
+                       <div class="col" id="c6-b">
+                             Charter Flights to Paris, Bali, Tokyo & more
+                       </div>
+                   </div>
+                </div>
+
+                <div class="col d-flex">
+                  <div class="col-2">
+                    <img src="" alt="">Img
+                   </div>
+                   <div class="col-10">
+                       <div class="col" id="c6-h">
+                        MICE
+                       </div>
+                       <div class="col" id="c6-b">
+                             Offsites,Events & Meetings
+                       </div>
+                   </div>
+
+                </div>
+
+                <div class="col d-flex" style="border: none;">
+                  <div class="col">
+                    <img src="" alt="">Img
+                  </div>
+                  <div class="col-10 ">
+                   
+                   <span id="c6-h">Gift Cards</span>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            
+            <!-- container-7 -->
+
+            <div class="container-fluid " style="height: auto; margin-top: 3cm; width: 100%; background-color:rgb(236, 236, 236)">
+
+                  <div class="row pt-5">
+                    
+                               <div class="col-8 d-flex">
+                                     
+                                      <div class="col-2" id="offer-text">
+                                        Offers
+                                      </div>
+                                      <div class="col-10">
+
+                                        <ul class="d-flex">
+                                          <li style="list-style-type:none; " id="offer-text-common" class="col"><a href="http://">All Offers</a></li>
+                                          <li style="list-style-type:none;" id="offer-text-common" class="col"><a href="http://">Bank Offers</a></li>
+                                          <li style="list-style-type:none;"  id="offer-text-common" class="col"><a href="http://">Flights</a></li>
+                                          <li style="list-style-type:none;" id="offer-text-common" class="col"><a href="http://">Hotels</a></li>
+                                          <li style="list-style-type:none;" id="offer-text-common" class="col"><a href="http://">Holidays</a></li>
+                                          <li style="list-style-type:none;" id="offer-text-common" class="col"><a href="http://">Trains</a></li>
+                                          <li style="list-style-type:none;" id="offer-text-common"  class="col"><a href="http://">Cabs</a></li>
+                                        </ul>
+                                        <hr>
+                                      </div>
+
+                                      
+                              
+
+                               </div>
+
+
+
+                               <div class="col-4 d-flex p-0">
+
+                                         <div class="col" id="va" >
+                                          VIEW ALL
+                                         </div>
+
+                                         <div class="col d-flex " >
+                                      
+                                             <div class="col d-flex justify-content-end">
+                                            <span><button  class="btn btn-primary btn-lg" type="button">Previous</button></span>
+                                             </div>
+                                            <div class="col d-flex justify-content-center">
+                                            <span ><button class="btn btn-primary btn-lg" type="button">Next</button></span>
+
+                                          </div>
+
+
+                                        </div>
+                               </div>
+                  </div>
+
+                   <!-- row2 -->
+
+                    <div class="row">
+                                         <!-- card-1 -->
+                          <div class="card m-5 shadow" style="height: auto; width: auto;">
+
+                                    <div class="card-container mt-2">
+                                        
+                                            <div class="card-c-item d-flex" id="item1">
+                                                 
+                                               <div class="card-img col">
+                                                
+                                                <!-- <img src="img/card-img-2.avif" alt="card-img-2"> -->
+
+                                               </div>
+
+                                                <div class=" card card-content col" style="padding:10px;">
+                                                 <div id="card-text-sm">HOLIDAYS</div>
+                                                 <div class="card-title">LIVENOW:Weekend Deals on HolidayPackages</div>
+                                                 <p class="card-text">Grab FLAT 30% OFF + EXTRA  5% OFF</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-c-item d-flex" id="item2">
+
+                                              <div class="col">T&C's Apply</div>
+                                              <div class="col">
+                                                BOOK NOW
+                                              </div>
+
+                                            </div>
+                                            
+                                       
+
+                                    </div>
+                                    
+                                    
+
+                                    
+                          </div>
+
+                                               <!-- card-2 -->
+
+                                               <div class="card m-5 shadow" style="height: auto; width: auto;">
+
+                                                <div class="card-container mt-2">
+                                                    
+                                                        <div class="card-c-item d-flex" id="item1">
+                                                             
+                                                           <div class="card-img col">
+                                                            
+                                                            <!-- <img src="img/card-img-2.avif" alt="card-img-2"> -->
+            
+                                                           </div>
+            
+                                                            <div class=" card card-content col" style="padding:10px;">
+                                                             <div id="card-text-sm">HOLIDAYS</div>
+                                                             <div class="card-title">LIVENOW:Weekend Deals on HolidayPackages</div>
+                                                             <p class="card-text">Grab FLAT 30% OFF + EXTRA  5% OFF</p>
+                                                            </div>
+                                                        </div>
+            
+                                                        <div class="card-c-item d-flex" id="item2">
+            
+                                                          <div class="col">T&C's Apply</div>
+                                                          <div class="col">
+                                                            BOOK NOW
+                                                          </div>
+            
+                                                        </div>
+                                                        
+                                                   
+            
+                                                </div>
+                                                
+            
+                                                
+                                      </div>
+
+
+
+                                          <!-- card-3 -->
+
+
+                                          <div class="card m-5 shadow" style="height: auto; width: auto;">
+
+                                            <div class="card-container mt-2">
+                                                
+                                                    <div class="card-c-item d-flex" id="item1">
+                                                         
+                                                       <div class="card-img col">
+                                                        
+                                                        <!-- <img src="img/card-img-2.avif" alt="card-img-2"> -->
+        
+                                                       </div>
+        
+                                                        <div class=" card card-content col" style="padding:10px;">
+                                                         <div id="card-text-sm">HOLIDAYS</div>
+                                                         <div class="card-title">LIVENOW:Weekend Deals on HolidayPackages</div>
+                                                         <p class="card-text">Grab FLAT 30% OFF + EXTRA  5% OFF</p>
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="card-c-item d-flex" id="item2">
+        
+                                                      <div class="col">T&C's Apply</div>
+                                                      <div class="col">
+                                                        BOOK NOW
+                                                      </div>
+        
+                                                    </div>
+                                                    
+                                               
+        
+                                            </div>
+                                            
+        
+                                            
+                                  </div>
+
+                                  <!-- card-4 -->
+
+                                  <div class="card m-5 shadow" style="height: auto; width: auto;">
+
+                                    <div class="card-container mt-2">
+                                        
+                                            <div class="card-c-item d-flex" id="item1">
+                                                 
+                                               <div class="card-img col">
+                                                
+                                                <!-- <img src="img/card-img-2.avif" alt="card-img-2"> -->
+
+                                               </div>
+
+                                                <div class=" card card-content col" style="padding:10px;">
+                                                 <div id="card-text-sm">HOLIDAYS</div>
+                                                 <div class="card-title">LIVENOW:Weekend Deals on HolidayPackages</div>
+                                                 <p class="card-text">Grab FLAT 30% OFF + EXTRA  5% OFF</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-c-item d-flex" id="item2">
+
+                                              <div class="col">T&C's Apply</div>
+                                              <div class="col">
+                                                BOOK NOW
+                                              </div>
+
+                                            </div>
+                                            
+                                       
+
+                                    </div>
+                                    
+
+                                    
+                          </div>
+
+                                      <!-- stop -->
+
+
+                    </div>
+
+
+            </div>
+ 
+
+            <!-- container-8 -->
+
+             <div class="container-fluid " style="background-color: white; width: 100%; height: 5cm;">
+
+                          <!-- carousel -->
+
+                        
+
+                          <div id="carouselExampleInterval" class="carousel slide mt-5 shadow" style="border-radius: 30px;" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item   active" data-bs-interval="10000">
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                
+                                  <div class="carousel-container d-flex justify-content-between">
+
+                                    <div class="card bg-primary" style="width: 700px;">
+                                      <div class="card-body d-flex">
+                                       <div class="col">
+                                        <img src="" alt="">img
+                                       </div>
+                                       <div class="col">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                       </div>
+                                      </div>
+                                    </div> 
+
+                                    <div class="card bg-secondary" style="width: 700px;">
+                                      <div class="card-body d-flex">
+                                       <div class="col">
+                                        <img src="" alt="">img
+                                       </div>
+                                       <div class="col">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                       </div>
+                                      </div>
+                                    </div> 
+    
+    
+                                    <div class="card bg-info" style="width: 700px;">
+                                      <div class="card-body d-flex">
+                                       <div class="col">
+                                        <img src="" alt="">img
+                                       </div>
+                                       <div class="col">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                       </div>
+                                      </div>
+                                    </div> 
+
+                                  </div>
+
+                                
+
+
+
+                              </div>
+                              <div class="carousel-item" data-bs-interval="10000">
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                    
+                                               
+                                <div class="carousel-container d-flex justify-content-between">
+
+                                  <div class="card bg-secondary" style="width: 700px;">
+                                    <div class="card-body d-flex">
+                                     <div class="col">
+                                      <img src="" alt="">img
+                                     </div>
+                                     <div class="col">
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                     </div>
+                                    </div>
+                                  </div> 
+
+                                  <div class="card bg-black" style="width: 700px;">
+                                    <div class="card-body d-flex">
+                                     <div class="col">
+                                      <img src="" alt="">img
+                                     </div>
+                                     <div class="col">
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                     </div>
+                                    </div>
+                                  </div> 
+  
+  
+                                  <div class="card bg-danger" style="width: 700px;">
+                                    <div class="card-body d-flex">
+                                     <div class="col">
+                                      <img src="" alt="">img
+                                     </div>
+                                     <div class="col">
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                     </div>
+                                    </div>
+                                  </div> 
+
+                                </div>
+
+                              
+
+
+
+
+                              </div>
+                              <div class="carousel-item" data-bs-interval="10000">
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                    
+                                              
+                                <div class="carousel-container d-flex justify-content-between">
+
+                                  <div class="card bg-white" style="width: 700px;">
+                                    <div class="card-body d-flex">
+                                     <div class="col">
+                                      <img src="" alt="">img
+                                     </div>
+                                     <div class="col">
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                     </div>
+                                    </div>
+                                  </div> 
+
+                                  <div class="card bg-secondary" style="width: 700px;">
+                                    <div class="card-body d-flex">
+                                     <div class="col">
+                                      <img src="" alt="">img
+                                     </div>
+                                     <div class="col">
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                     </div>
+                                    </div>
+                                  </div> 
+  
+  
+                                  <div class="card bg-dark" style="width: 700px;">
+                                    <div class="card-body d-flex">
+                                     <div class="col">
+                                      <img src="" alt="">img
+                                     </div>
+                                     <div class="col">
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, suscipit.</p>
+                                     </div>
+                                    </div>
+                                  </div> 
+
+                                </div>
+
+                              
+
+
+
+
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" style="width: 200px;" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                              <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" style="width: 200px;" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+
+
+                            <!-- Ad -->
+                   <div class="contaner d-flex justify-content-center mt-5">
+                       <span>Ad</span>
+                   </div>
+
+
+
+
+             </div>       <!-- container end-->
+
+
+                             <!-- container-9 -->   
+
+            <div class="container-fluid shadow-lg p-3 mb-5 bg-white rounded" style="height:auto; background-color:white">
+                 
+                       
+                         <div class="container-9 d-flex" >
+                             
+                                 <div class="col-8" >
+                                       
+                                         <div class="col d-flex">
+
+                                                 <div class="col-2">
+                                                  img
+                                                 </div>
+                                                 <div class="col-10">
+                                                       <div class="text-h">Download App Now !</div>
+                                                       <div class="text-b">Use code <b>WELCOMEMMT</b> and get <b>FLAT 12%</b> OFF on your first domestic flight booking</div>
+                                                 </div>
+
+                                        </div>
+
+
+
+
+                                         <div class="col">
+                                        
+                                          <input  class="text-primary" style="width: 80%; height: 2cm; border-radius: 10px;" type="number" name="" id="" placeholder="Enter Mobile Number">
+                                          <button  class="btn bg-primary text-white" style="width: auto; height: 2cm;" type="button">GET APP LINK</button>     
+                                        </div>
+                                
+                                 </div>
+
+
+
+
+
+
+
+                                 <div class="col-4 c9-grid d-flex ">
+                                          
+                                    <div class="col-6justify-content-end" style="padding: 0;">
+                                      <img style="height: 100px; width: 251px;" src="img/gp.webp" alt="">
+                                      <img  style="height: 95px; width: 248px; padding-left: 25px;" src="img/as.webp" alt="" srcset="">
+                                    </div>
+                                    <div class="col-6">
+                                      <img  style="width: 200px;" src="img/qr.avif" alt="" srcset="">
+                                    </div>
+                                    
+                                
+                                
+                                </div>
+
+                         </div>
+
+
+
+             </div>
+
+
+                         <!-- container-10      -->
+
+
+                         <div class="container-fluid mt-5" style="height: auto; background-color: white" >
+                                     
+                          <div class="row d-flex">
+
+                                    <div class="col-8">
+                                      <div class="collection-t-h">
+                                          Handpicked Collection for You
+                                      </div>
+                                    </div>
+
+                                    <div class="col-4 d-flex">
+
+                                      <div class="col d-flex justify-content-end mt-5">
+                                        <span><button  class="btn btn-primary btn-lg me-3" type="button">Previous</button></span>
+                                        <span ><button class="btn btn-primary btn-lg" type="button">Next</button></span>
+
+                                      </div>
+
+                                    </div>
+
+                          </div>
+
+
+                                      <!-- collection -->
+
+                                     <div>
+                                        
+                                         <ul class="p-5 collection d-flex flex-wrap">
+
+                                              <li class="col">
+                                                <div class="card" style="border-radius: 20px; width:400px;">
+                                                  <img  style="border-radius: 20px; height:500px;" src="img/c-img1.avif" alt="" class="card-img-top">
+                                                  <div class="card-img-overlay d-flex  align-items-end">
+                                                    <div class="card-body">
+                                                      <div class="badge rounded bg-white text-black">Top10</div>
+                                                      <div class="card-text coll-t ">Lorem ipsum dolor sit amet.</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </li>
+                                              <li class="col" >
+                                                <div class="card" style="border-radius: 20px; width:400px;">
+                                                  <img style="border-radius: 20px; height:500px;" src="img/c-img1.avif" alt="" class="card-img-top">
+                                                  <div class="card-img-overlay d-flex  align-items-end">
+                                                    <div class="card-body">
+                                                      <div class="badge rounded bg-white text-black">Top10</div>
+                                                      <div class="card-text coll-t ">Lorem ipsum dolor sit amet.</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </li>
+                                              <li class="col">
+                                                <div class="card" style="border-radius: 20px; width:400px;">
+                                                  <img style="border-radius: 20px; height:500px;" src="img/c-img1.avif" alt="" class="card-img-top">
+                                                  <div class="card-img-overlay d-flex  align-items-end">
+                                                    <div class="card-body">
+                                                      <div class="badge rounded bg-white text-black">Top10</div>
+                                                      <div class="card-text coll-t ">Lorem ipsum dolor sit amet.</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </li>
+                                              <li class="col" >
+                                                <div class="card" style="border-radius: 20px; width:400px;">
+                                                  <img style="border-radius: 20px; height:500px;" src="img/c-img1.avif" alt="" class="card-img-top">
+                                                  <div class="card-img-overlay d-flex  align-items-end">
+                                                    <div class="card-body">
+                                                      <div class="badge rounded bg-white text-black">Top10</div>
+                                                      <div class="card-text coll-t ">Lorem ipsum dolor sit amet.</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </li>
+                                              <li class="col">
+                                                <div class="card" style="border-radius: 20px; width:400px;">
+                                                  <img style="border-radius: 20px; height:500px;" src="img/c-img1.avif" alt="" class="card-img-top">
+                                                  <div class="card-img-overlay d-flex  align-items-end">
+                                                    <div class="card-body">
+                                                      <div class="badge rounded bg-white text-black">Top10</div>
+                                                      <div class="card-text coll-t ">Lorem ipsum dolor sit amet.</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </li>
+                                         </ul>
+
+                                      </div>
+
+                                       <!-- Ad -->
+                   <div class="contaner d-flex justify-content-center mt-5">
+                    <span>Ad</span>
+                </div>
+
+
+                         </div>   <!--container end-->
+
+
+                          <!-- container-11 -->
+
+                          <div class="container-fluid container-11" style="background-color: #e7e7e7; height: auto;">
+
+                            <br>
+                            <div class="c-h">PRODUCT OFFERING</div>
+                            <br>
+                            <div class="c-b">
+                              Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From US, Book Flights From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status, MakeMyTrip Advertising Solutions, One Way Cab
+                            </div>
+                            <br>      
+                            
+
+                            <br>
+                            <div class="c-h">MAKEMYTRIP</div>
+                            <br>
+                            <div class="c-b">
+                              About Us, Investor Relations, Careers, MMT Foundation, CSR Policy, myPartner - Travel Agent Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us, RedBus Ferry Malaysia, RedBus Ferry Singapore
+                            </div>
+                            <br>  
+
+
+                            <br>
+                            <div class="c-h">ABOUT THE SITE</div>
+                            <br>
+                            <div class="c-b">
+                              Customer Support, Payment Security, Privacy Policy, User Agreement, Terms of Service, More Offices, Make A Payment, Work From Home, Report Security Issues
+                            </div>
+                            <br>  
+
+
+
+                
+                            <br>
+                            <div class="c-h">TOP HOTELS IN INDIA</div>
+                            <br>
+                            <div class="c-b">
+                              Fairmont Jaipur, St Regis Goa, Six Senses Fort Barwara, W Goa, Grand Hyatt Goa, Shangri-La Bangalore, The St Regis Mumbai, Taj Rishikesh, Grand Hyatt Mumbai, Le Meridien Delhi, Rambagh Palace Jaipur, Leela Palace Chennai, The Leela Palace Udaipur, Taj Lake Palace Udaipur, Jw Marriott Chandigarh, Alila Diwa Goa, Le Meridien Goa, Taj Lands End Mumbai, Itc Grand Chola Chennai, Itc Maratha Mumbai, Oberoi Udaivilas, Jai Mahal Palace Jaipur, Taj Mahal Tower Mumbai, Marriott Suites Pune, Park Hyatt Chennai, The Leela Palace Jaipur, Jw Marriott Mumbai Sahar, Jw Marriott Mumbai Juhu, The Ritz Carlton Bengaluru, The Oberoi New Delhi, Taj Resort & Convention Centre Goa, Taj Bengal Kolkata, Taj Coromandel Chennai, The Oberoi Gurgaon, The Westin Goa, Jw Marriott Hotel Pune, The Leela Palace New Delhi, Taj West End Bengaluru, The Taj Mahal Palace Mumbai, Best Hotels in India
+                            </div>
+                            <br>  
+
+                            <br>
+                            <div class="c-h">TOP INTERNATIONAL HOTELS</div>
+                            <br>
+                            <div class="c-b">
+                              Adaaran Club Rannalhi, Marina Bay Sands Singapore, Coco Bodu Hithi, Taj Dubai, Atlantis Hotel Dubai, Amari Phuket, Jw Marriott Dubai, Armani Hotel Dubai, Grand Hyatt Dubai, Saii Lagoon Maldives, Gevora Hotel Dubai, Hyatt Regency Dubai, Pan Pacific Singapore, The Palm Dubai, Caesars Palace, Baiyoke Sky Hotel, Centara Pattaya Hotel, Embudu Village, Orchard Hotel Singapore, Reethi Beach Resort, Ambassador Hotel Bangkok, Dusit Thani Pattaya, Shangri La Singapore, Sunbeam Hotel Pattaya, Taj Samudra Colombo, Bangkok Palace Hotel, Hilton Pattaya, Novotel Phuket Resort, Taj Exotica Resort Maldives, Village Hotel Bugis, Avani Atrium Bangkok, The Plaza New York, Village Hotel Albert Court, Amari Pattaya                            </div>
+                            <br> 
+
+                            <br>
+                            <div class="c-h">QUICK LINKS</div>
+                            <br>
+                            <div class="c-b">
+                              Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights, Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to Guwahati Flights, Pasighat to Guwahati Flights, Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages, Goa Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore Manali, Explore Shimla, Explore Jaipur, Explore Srinagar
+                            </div>
+                            <br> 
+
+                            <br>
+                            <div class="c-h">IMPORTANT LINKS</div>
+                            <br>
+                            <div class="c-b">
+                              Cheap Flights, Flight Status, Kumbh Mela, Domestic Airlines, International Airlines, Indigo, Spicejet, GoAir, Air Asia, Air India, Indian Railways, Trip Ideas, Beaches, Honeymoon Destinations, Romantic Destinations, Popular Destinations, Resorts In Udaipur, Resorts In Munnar, Villas In Lonavala, Hotels in Thailand, Villas In Goa, Domestic Flight Offers, International Flight Offers, UAE Flight Offers, USA, UAE, Saudi Arabia, UK, Oman                            <br> 
+
+                            <br>
+                            <div class="c-h">CORPORATE TRAVEL</div>
+                            <br>
+                            <div class="c-b">
+                              Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME, GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel, GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights                            </div>
+                            <br> 
+
+
+
+
+                          </div>   <!--container-end-->
+
+                         
+                          <!-- container-12 -->
+
+                         <div class="container-fluid  d-flex" style="padding: 20px;background-color: rgb(208, 213, 218);">
+                           
+                            <div class="col-4">
+                              
+                              <div class="c-h">Why MakeMyTrip?</div>
+                              <br>
+                              <div class="c-b">
+                                Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.
+                            </div>
+
+                            </div>
+
+
+                            <div class="col-4">
+                              <br>
+                              <div class="c-h">Booking Flights with MakeMyTrip
+                              </div>
+                              <br>
+                              <div class="c-b">
+                                At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.
+                              <br>
+                            </div>
+                            </div>
+
+
+                            <div class="col-4">
+                              <br>
+                              <div class="c-h">Domestic Flights with MakeMyTrip</div>
+                              <br>
+                              <div class="c-b">
+                                MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.                              <br>
+                            </div>
+                            </div>
+
+                          </div>  <!--container-end-->
+
+                          <!-- container-13 -->
+
+
+                          <div class="container-fluid footer mt-5" style="background-color: black; padding: 50px;">
+                             <div class="row">
+                                  <div class="col-6">
+                                      <span><i class="fa fa-5x fa-twitter" style="color: white;" aria-hidden="true"></i></span>
+                                       
+                                      <span><i class="fa fa-5x fa-facebook ps-5" style="color: white;" aria-hidden="true"></i>
+                                       </span>
+                                    </div>
+                                  <div class="col-6 c-h text-center"  >
+                                    <pre style="color: white;">
+                                      © 2023 MAKEMYTRIP PVT. LTD.
+                                            Country India USA UAE
+                                    </pre>
+                                  </div>
+                             </div>
+                          </div>
+
+
+
+  </body>
+</html>
